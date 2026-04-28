@@ -31,7 +31,7 @@ src/
 ## Setup
 
 ```bash
-git clone [your-repository-link]
+git clone https://github.com/kristinapunko/image-carousel.git
 npm install
 npm run dev
 ```
