@@ -64,11 +64,11 @@
 }
 
 .nav-btn.prev {
-  left: -24px;
+  left: -20px;
 }
 
 .nav-btn.next {
-  right: -24px;
+  right: -20px;
 }
 
 @media (min-width: 481px) {
@@ -80,6 +80,13 @@
 @media (min-width: 769px) {
   .carousel-item {
     flex: 0 0 33.33%;
+  }
+  .nav-btn.prev {
+    left: -24px;
+  }
+  
+  .nav-btn.next {
+    right: -24px;
   }
 }
 
