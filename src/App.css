@@ -1,0 +1,62 @@
+.App-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  color: var(--primary-dark);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.selected-section {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.selected-section h3 {
+  color: var(--primary-dark);
+  margin-bottom: 20px;
+}
+
+.selected-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selected-item {
+  background: var(--white);
+  padding: 12px 20px;
+  border-radius: 10px;
+  border-left: 5px solid var(--primary-blue);
+  box-shadow: 0 4px 12px rgba(29, 69, 118, 0.08);
+  animation: slideIn 0.4s ease-out forwards;
+}
+
+.selected-item a {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.selected-item a:hover {
+  color: var(--accent-blue);
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
